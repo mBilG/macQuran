@@ -1,5 +1,5 @@
 # macQuran
-### A free and simple macOS Quran/Mushaf
+### A free and simple macOS Big Sur Quran/Mushaf
 
 ---
 
@@ -16,8 +16,18 @@
 * Download the macQuran.app file
 * Copy to your Applications folder
 * Run & Enjoy
+* In dual-pages mode: Click on page to turn
+* In single-page mode: Click on the arrow to turn
 
+Only tested on macOS Big Sur
 
+---
+
+**Future work**
+
+* Recitation page
+* Arabic fonts options
+* Bookmarks?
 
 ---
 
@@ -31,11 +41,4 @@ Will add the source codes after I do some cleanup.
  
 Features will be added when I have the time. If you'd like to help, let me know.
 
----
 
-**V1.0**
-
-- Reading 2 pages Mushaf working
-- Only Newest Madani Mushaf (1441H) for now. Will add the older ones soon.
-- Settings not ready yet
-- Recitations not ready yet
