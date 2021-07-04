@@ -5,9 +5,9 @@
 
 **Screenshots**
 
-![](https://raw.githubusercontent.com/mBilG/macQuran/main/macQuranDark.png)
+![](https://github.com/mBilG/macQuran/blob/0ef835b925bfd6687bcbd87927b18f491bd7b828/macQuranDark.png)
 
-![](https://raw.githubusercontent.com/mBilG/macQuran/main/macQuranLight.png)
+![](https://github.com/mBilG/macQuran/blob/0ef835b925bfd6687bcbd87927b18f491bd7b828/macQuranLight.png)
 
 ---
 
