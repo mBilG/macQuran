@@ -1,0 +1,482 @@
+[
+	{
+		"id": "1",
+		"hizb": "1",
+		"juz": "1",
+		"hizb_name": "الم",
+		"hizb_start": "001",
+		"hizb_end": "010"
+	},
+	{
+		"id": "2",
+		"hizb": "2",
+		"juz": "1",
+		"hizb_name": "أفتطمعون أن يؤمنوا لكم",
+		"hizb_start": "011",
+		"hizb_end": "021"
+	},
+	{
+		"id": "3",
+		"hizb": "1",
+		"juz": "2",
+		"hizb_name": "سيقول السفهاء من الناس",
+		"hizb_start": "022",
+		"hizb_end": "031"
+	},
+	{
+		"id": "4",
+		"hizb": "2",
+		"juz": "2",
+		"hizb_name": "واذكروا الله في أيام",
+		"hizb_start": "032",
+		"hizb_end": "041"
+	},
+	{
+		"id": "5",
+		"hizb": "1",
+		"juz": "3",
+		"hizb_name": "تلك الرّسل فضّلنا",
+		"hizb_start": "042",
+		"hizb_end": "050"
+	},
+	{
+		"id": "6",
+		"hizb": "2",
+		"juz": "3",
+		"hizb_name": "قل أؤنبّئكم بخير مّن",
+		"hizb_start": "051",
+		"hizb_end": "061"
+	},
+	{
+		"id": "7",
+		"hizb": "1",
+		"juz": "4",
+		"hizb_name": "كلّ الطّعام كان حلّا لّبني",
+		"hizb_start": "062",
+		"hizb_end": "071"
+	},
+	{
+		"id": "8",
+		"hizb": "2",
+		"juz": "4",
+		"hizb_name": "يستبشرون بنعمة مّن",
+		"hizb_start": "072",
+		"hizb_end": "081"
+	},
+	{
+		"id": "9",
+		"hizb": "1",
+		"juz": "5",
+		"hizb_name": "والمحصنات من النّساء",
+		"hizb_start": "082",
+		"hizb_end": "091"
+	},
+	{
+		"id": "10",
+		"hizb": "2",
+		"juz": "5",
+		"hizb_name": "فما لكم فِي المنافِقِين",
+		"hizb_start": "092",
+		"hizb_end": "101"
+	},
+	{
+		"id": "11",
+		"hizb": "1",
+		"juz": "6",
+		"hizb_name": "لّا يحبّ اللّه الجهر",
+		"hizb_start": "102",
+		"hizb_end": "111"
+	},
+	{
+		"id": "12",
+		"hizb": "2",
+		"juz": "6",
+		"hizb_name": "واتل عليهِم نبأ ابني",
+		"hizb_start": "112",
+		"hizb_end": "120"
+	},
+	{
+		"id": "13",
+		"hizb": "1",
+		"juz": "7",
+		"hizb_name": "لتجدنّ أشدّ النّاس",
+		"hizb_start": "121",
+		"hizb_end": "131"
+	},
+	{
+		"id": "14",
+		"hizb": "2",
+		"juz": "7",
+		"hizb_name": "إنّما يستجيب الّذين",
+		"hizb_start": "132",
+		"hizb_end": "141"
+	},
+	{
+		"id": "15",
+		"hizb": "1",
+		"juz": "8",
+		"hizb_name": "ولو أنّنا نزّلنا إليهم",
+		"hizb_start": "142",
+		"hizb_end": "150"
+	},
+	{
+		"id": "16",
+		"hizb": "2",
+		"juz": "8",
+		"hizb_name": "المص",
+		"hizb_start": "151",
+		"hizb_end": "161"
+	},
+	{
+		"id": "17",
+		"hizb": "1",
+		"juz": "9",
+		"hizb_name": "قال الملأ الّذين",
+		"hizb_start": "162",
+		"hizb_end": "172"
+	},
+	{
+		"id": "18",
+		"hizb": "2",
+		"juz": "9",
+		"hizb_name": "وإِذ نتقنا الجبل فوقهم",
+		"hizb_start": "173",
+		"hizb_end": "181"
+	},
+	{
+		"id": "19",
+		"hizb": "1",
+		"juz": "10",
+		"hizb_name": "واعلموا أنّما غنمتم مّن",
+		"hizb_start": "182",
+		"hizb_end": "191"
+	},
+	{
+		"id": "20",
+		"hizb": "2",
+		"juz": "10",
+		"hizb_name": "يا أيّها الّذين آمنوا إنّ",
+		"hizb_start": "192",
+		"hizb_end": "200"
+	},
+	{
+		"id": "21",
+		"hizb": "1",
+		"juz": "11",
+		"hizb_name": "إنّما السّبيل على الّذين",
+		"hizb_start": "201",
+		"hizb_end": "211"
+	},
+	{
+		"id": "22",
+		"hizb": "2",
+		"juz": "11",
+		"hizb_name": "لّلّذين أحسنوا الحسنىٰ",
+		"hizb_start": "212",
+		"hizb_end": "221"
+	},
+	{
+		"id": "23",
+		"hizb": "1",
+		"juz": "12",
+		"hizb_name": "وما من دابّة في الأرض",
+		"hizb_start": "222",
+		"hizb_end": "230"
+	},
+	{
+		"id": "24",
+		"hizb": "2",
+		"juz": "12",
+		"hizb_name": "وإِلىٰ مدين أخاهم شعيبا",
+		"hizb_start": "231",
+		"hizb_end": "241"
+	},
+	{
+		"id": "25",
+		"hizb": "1",
+		"juz": "13",
+		"hizb_name": "وما أبرّئ نفسي ۚ ",
+		"hizb_start": "242",
+		"hizb_end": "251"
+	},
+	{
+		"id": "26",
+		"hizb": "2",
+		"juz": "13",
+		"hizb_name": "أفمن يعلم أنّما أنزل",
+		"hizb_start": "252",
+		"hizb_end": "261"
+	},
+	{
+		"id": "27",
+		"hizb": "1",
+		"juz": "14",
+		"hizb_name": "الر ۚ تِلك آيات الكِتابِ",
+		"hizb_start": "262",
+		"hizb_end": "271"
+	},
+	{
+		"id": "28",
+		"hizb": "2",
+		"juz": "14",
+		"hizb_name": "وقال اللّه لا تتّخذوا",
+		"hizb_start": "272",
+		"hizb_end": "281"
+	},
+	{
+		"id": "29",
+		"hizb": "1",
+		"juz": "15",
+		"hizb_name": "سبحان الّذي أسرىٰ بعبده",
+		"hizb_start": "282",
+		"hizb_end": "291"
+	},
+	{
+		"id": "30",
+		"hizb": "2",
+		"juz": "15",
+		"hizb_name": "أولم يروا أنّ اللّه الّذي",
+		"hizb_start": "292",
+		"hizb_end": "301"
+	},
+	{
+		"id": "31",
+		"hizb": "1",
+		"juz": "16",
+		"hizb_name": "قال ألم أقل لّك إنّك لن",
+		"hizb_start": "302",
+		"hizb_end": "311"
+	},
+	{
+		"id": "32",
+		"hizb": "2",
+		"juz": "16",
+		"hizb_name": "طه",
+		"hizb_start": "312",
+		"hizb_end": "321"
+	},
+	{
+		"id": "33",
+		"hizb": "1",
+		"juz": "17",
+		"hizb_name": " اقترب للنّاس حسابهم",
+		"hizb_start": "322",
+		"hizb_end": "331"
+	},
+	{
+		"id": "34",
+		"hizb": "2",
+		"juz": "17",
+		"hizb_name": "يا أيّها النّاس اتّقوا",
+		"hizb_start": "332",
+		"hizb_end": "341"
+	},
+	{
+		"id": "35",
+		"hizb": "1",
+		"juz": "18",
+		"hizb_name": "قد أفلح المؤمِنون",
+		"hizb_start": "342",
+		"hizb_end": "351"
+	},
+	{
+		"id": "36",
+		"hizb": "2",
+		"juz": "18",
+		"hizb_name": "يا أيّها الّذين آمنوا لا",
+		"hizb_start": "352",
+		"hizb_end": "361"
+	},
+	{
+		"id": "37",
+		"hizb": "1",
+		"juz": "19",
+		"hizb_name": "وقال الّذين لا يرجون",
+		"hizb_start": "362",
+		"hizb_end": "370"
+	},
+	{
+		"id": "38",
+		"hizb": "2",
+		"juz": "19",
+		"hizb_name": "قالوا أنؤمن لك واتّبعك",
+		"hizb_start": "371",
+		"hizb_end": "381"
+	},
+	{
+		"id": "39",
+		"hizb": "1",
+		"juz": "20",
+		"hizb_name": "فما كان جواب قومه إلّا",
+		"hizb_start": "382",
+		"hizb_end": "391"
+	},
+	{
+		"id": "40",
+		"hizb": "2",
+		"juz": "20",
+		"hizb_name": "ولقد وصّلنا لهم القول",
+		"hizb_start": "392",
+		"hizb_end": "401"
+	},
+	{
+		"id": "41",
+		"hizb": "1",
+		"juz": "21",
+		"hizb_name": "ولا تجادِلوا أهل الكِتابِ",
+		"hizb_start": "402",
+		"hizb_end": "412"
+	},
+	{
+		"id": "42",
+		"hizb": "2",
+		"juz": "21",
+		"hizb_name": "ومن يسلم وجهه إلى اللّه",
+		"hizb_start": "413",
+		"hizb_end": "421"
+	},
+	{
+		"id": "43",
+		"hizb": "1",
+		"juz": "22",
+		"hizb_name": "ومن يقنت منكنّ للّه",
+		"hizb_start": "422",
+		"hizb_end": "430"
+	},
+	{
+		"id": "44",
+		"hizb": "2",
+		"juz": "22",
+		"hizb_name": "قل من يرزقكم مّن",
+		"hizb_start": "431",
+		"hizb_end": "441"
+	},
+	{
+		"id": "45",
+		"hizb": "1",
+		"juz": "23",
+		"hizb_name": "وما أنزلنا علىٰ قومِهِ مِن",
+		"hizb_start": "442",
+		"hizb_end": "450"
+	},
+	{
+		"id": "46",
+		"hizb": "2",
+		"juz": "23",
+		"hizb_name": "فنبذناه بِالعراءِ وهو",
+		"hizb_start": "451",
+		"hizb_end": "461"
+	},
+	{
+		"id": "47",
+		"hizb": "1",
+		"juz": "24",
+		"hizb_name": "فمن أظلم ممّن كذب على",
+		"hizb_start": "462",
+		"hizb_end": "471"
+	},
+	{
+		"id": "48",
+		"hizb": "2",
+		"juz": "24",
+		"hizb_name": "ويا قومِ ما لِي أدعوكم إِلى",
+		"hizb_start": "472",
+		"hizb_end": "481"
+	},
+	{
+		"id": "49",
+		"hizb": "1",
+		"juz": "25",
+		"hizb_name": "إليه يردّ علم السّاعة ۚ",
+		"hizb_start": "482",
+		"hizb_end": "490"
+	},
+	{
+		"id": "50",
+		"hizb": "2",
+		"juz": "25",
+		"hizb_name": "قال أولو جِئتُكُم بِأهدىٰ",
+		"hizb_start": "491",
+		"hizb_end": "501"
+	},
+	{
+		"id": "51",
+		"hizb": "1",
+		"juz": "26",
+		"hizb_name": "حم",
+		"hizb_start": "502",
+		"hizb_end": "512"
+	},
+	{
+		"id": "52",
+		"hizb": "2",
+		"juz": "26",
+		"hizb_name": "لّقد رضي اللّه عن",
+		"hizb_start": "513",
+		"hizb_end": "521"
+	},
+	{
+		"id": "53",
+		"hizb": "1",
+		"juz": "27",
+		"hizb_name": "قال فما خطبكم أيّها",
+		"hizb_start": "522",
+		"hizb_end": "530"
+	},
+	{
+		"id": "54",
+		"hizb": "2",
+		"juz": "27",
+		"hizb_name": "الرّحمٰن",
+		"hizb_start": "531",
+		"hizb_end": "541"
+	},
+	{
+		"id": "55",
+		"hizb": "1",
+		"juz": "28",
+		"hizb_name": "قد سمع اللّه قول الّتي",
+		"hizb_start": "542",
+		"hizb_end": "552"
+	},
+	{
+		"id": "56",
+		"hizb": "2",
+		"juz": "28",
+		"hizb_name": "يسبّح للّه ما في",
+		"hizb_start": "553",
+		"hizb_end": "561"
+	},
+	{
+		"id": "57",
+		"hizb": "1",
+		"juz": "29",
+		"hizb_name": "تبارك الّذي بيده الملك",
+		"hizb_start": "562",
+		"hizb_end": "571"
+	},
+	{
+		"id": "58",
+		"hizb": "2",
+		"juz": "29",
+		"hizb_name": "قل أوحي إليّ أنّه",
+		"hizb_start": "572",
+		"hizb_end": "581"
+	},
+	{
+		"id": "59",
+		"hizb": "1",
+		"juz": "30",
+		"hizb_name": "عمّ يتساءلون",
+		"hizb_start": "582",
+		"hizb_end": "590"
+	},
+	{
+		"id": "60",
+		"hizb": "2",
+		"juz": "30",
+		"hizb_name": "سبّح اسم ربّك الأعلى",
+		"hizb_start": "591",
+		"hizb_end": "604"
+	}
+]

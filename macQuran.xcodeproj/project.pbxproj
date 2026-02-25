@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011F70ED2691E5AD004E5E9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019CF70C268F1371007BFE95 /* Assets.xcassets */; };
+		011F70EF2692787D004E5E9C /* ArabicFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F70EE2692787D004E5E9C /* ArabicFonts.swift */; };
+		012305E5269015E300DACC21 /* SettingsTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012305E4269015E300DACC21 /* SettingsTheme.swift */; };
+		012305E726901AED00DACC21 /* SettingsPageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012305E626901AED00DACC21 /* SettingsPageType.swift */; };
+		012305EB269033EC00DACC21 /* LeftSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012305EA269033EC00DACC21 /* LeftSidebar.swift */; };
+		015DFE8C2694C4EE00653AA2 /* HizbScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015DFE8B2694C4EE00653AA2 /* HizbScrollView.swift */; };
+		015DFE8E2694C50600653AA2 /* HizbButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015DFE8D2694C50600653AA2 /* HizbButton.swift */; };
+		015DFE922695F19900653AA2 /* HizbData.json in Resources */ = {isa = PBXBuildFile; fileRef = 015DFE912695F19900653AA2 /* HizbData.json */; };
+		019CF709268F136F007BFE95 /* macQuranApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CF708268F136F007BFE95 /* macQuranApp.swift */; };
+		019CF70B268F136F007BFE95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CF70A268F136F007BFE95 /* ContentView.swift */; };
+		019CF710268F1371007BFE95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019CF70F268F1371007BFE95 /* Preview Assets.xcassets */; };
+		019CF722268F13CD007BFE95 /* MushafPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CF719268F13CD007BFE95 /* MushafPages.swift */; };
+		019CF723268F13CD007BFE95 /* Mushaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CF71A268F13CD007BFE95 /* Mushaf.swift */; };
+		019CF724268F13CD007BFE95 /* BlurWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CF71B268F13CD007BFE95 /* BlurWindow.swift */; };
+		019CF725268F13CD007BFE95 /* SurahButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CF71C268F13CD007BFE95 /* SurahButton.swift */; };
+		019CF726268F13CD007BFE95 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CF71D268F13CD007BFE95 /* TabButton.swift */; };
+		019CF727268F13CD007BFE95 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CF71E268F13CD007BFE95 /* Home.swift */; };
+		019CF728268F13CD007BFE95 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CF71F268F13CD007BFE95 /* Settings.swift */; };
+		019CF729268F13CD007BFE95 /* SurahScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CF720268F13CD007BFE95 /* SurahScrollView.swift */; };
+		019CF72A268F13CD007BFE95 /* SurahProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CF721268F13CD007BFE95 /* SurahProgress.swift */; };
+		019CF730268F13DD007BFE95 /* SurahData.json in Resources */ = {isa = PBXBuildFile; fileRef = 019CF72C268F13DD007BFE95 /* SurahData.json */; };
+		019CF731268F13DD007BFE95 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CF72D268F13DD007BFE95 /* HomeViewModel.swift */; };
+		019CF732268F13DD007BFE95 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CF72E268F13DD007BFE95 /* ModelData.swift */; };
+		019CF733268F13DD007BFE95 /* ModelTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CF72F268F13DD007BFE95 /* ModelTypes.swift */; };
+		019CF735268F1DBC007BFE95 /* Recitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CF734268F1DBC007BFE95 /* Recitation.swift */; };
+		01BF8E7F2691BFCF0043AF96 /* MushafSinglePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BF8E7E2691BFCF0043AF96 /* MushafSinglePage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		011DD1572690D27200CE467C /* MediaPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayer.swift; sourceTree = "<group>"; };
+		011DD1592690E62A00CE467C /* Reciters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reciters.swift; sourceTree = "<group>"; };
+		011DD15B2690F36B00CE467C /* AudioPlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerModel.swift; sourceTree = "<group>"; };
+		011F70EE2692787D004E5E9C /* ArabicFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArabicFonts.swift; sourceTree = "<group>"; };
+		012305E4269015E300DACC21 /* SettingsTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTheme.swift; sourceTree = "<group>"; };
+		012305E626901AED00DACC21 /* SettingsPageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPageType.swift; sourceTree = "<group>"; };
+		012305EA269033EC00DACC21 /* LeftSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidebar.swift; sourceTree = "<group>"; };
+		015DFE8B2694C4EE00653AA2 /* HizbScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HizbScrollView.swift; sourceTree = "<group>"; };
+		015DFE8D2694C50600653AA2 /* HizbButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HizbButton.swift; sourceTree = "<group>"; };
+		015DFE912695F19900653AA2 /* HizbData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HizbData.json; sourceTree = SOURCE_ROOT; };
+		019CF705268F136F007BFE95 /* macQuran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macQuran.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		019CF708268F136F007BFE95 /* macQuranApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macQuranApp.swift; sourceTree = "<group>"; };
+		019CF70A268F136F007BFE95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		019CF70C268F1371007BFE95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		019CF70F268F1371007BFE95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		019CF711268F1371007BFE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019CF712268F1371007BFE95 /* macQuran.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macQuran.entitlements; sourceTree = "<group>"; };
+		019CF719268F13CD007BFE95 /* MushafPages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MushafPages.swift; sourceTree = "<group>"; };
+		019CF71A268F13CD007BFE95 /* Mushaf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mushaf.swift; sourceTree = "<group>"; };
+		019CF71B268F13CD007BFE95 /* BlurWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurWindow.swift; sourceTree = "<group>"; };
+		019CF71C268F13CD007BFE95 /* SurahButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurahButton.swift; sourceTree = "<group>"; };
+		019CF71D268F13CD007BFE95 /* TabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		019CF71E268F13CD007BFE95 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		019CF71F268F13CD007BFE95 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		019CF720268F13CD007BFE95 /* SurahScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurahScrollView.swift; sourceTree = "<group>"; };
+		019CF721268F13CD007BFE95 /* SurahProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurahProgress.swift; sourceTree = "<group>"; };
+		019CF72C268F13DD007BFE95 /* SurahData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SurahData.json; sourceTree = "<group>"; };
+		019CF72D268F13DD007BFE95 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		019CF72E268F13DD007BFE95 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		019CF72F268F13DD007BFE95 /* ModelTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTypes.swift; sourceTree = "<group>"; };
+		019CF734268F1DBC007BFE95 /* Recitation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recitation.swift; sourceTree = "<group>"; };
+		01BF8E7E2691BFCF0043AF96 /* MushafSinglePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushafSinglePage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		019CF702268F136F007BFE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		011DD1532690D1D900CE467C /* Mushaf */ = {
+			isa = PBXGroup;
+			children = (
+				019CF71A268F13CD007BFE95 /* Mushaf.swift */,
+				019CF719268F13CD007BFE95 /* MushafPages.swift */,
+				01BF8E7E2691BFCF0043AF96 /* MushafSinglePage.swift */,
+				019CF71C268F13CD007BFE95 /* SurahButton.swift */,
+				019CF720268F13CD007BFE95 /* SurahScrollView.swift */,
+				015DFE8D2694C50600653AA2 /* HizbButton.swift */,
+				015DFE8B2694C4EE00653AA2 /* HizbScrollView.swift */,
+				019CF721268F13CD007BFE95 /* SurahProgress.swift */,
+			);
+			path = Mushaf;
+			sourceTree = "<group>";
+		};
+		011DD1542690D1E700CE467C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				019CF71F268F13CD007BFE95 /* Settings.swift */,
+				012305E4269015E300DACC21 /* SettingsTheme.swift */,
+				012305E626901AED00DACC21 /* SettingsPageType.swift */,
+				011F70EE2692787D004E5E9C /* ArabicFonts.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		011DD1552690D22E00CE467C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				019CF71B268F13CD007BFE95 /* BlurWindow.swift */,
+				019CF71E268F13CD007BFE95 /* Home.swift */,
+				019CF71D268F13CD007BFE95 /* TabButton.swift */,
+				012305EA269033EC00DACC21 /* LeftSidebar.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		011DD1562690D23D00CE467C /* Recitations */ = {
+			isa = PBXGroup;
+			children = (
+				019CF734268F1DBC007BFE95 /* Recitation.swift */,
+				011DD15B2690F36B00CE467C /* AudioPlayerModel.swift */,
+				011DD1572690D27200CE467C /* MediaPlayer.swift */,
+				011DD1592690E62A00CE467C /* Reciters.swift */,
+			);
+			path = Recitations;
+			sourceTree = "<group>";
+		};
+		019CF6FC268F136F007BFE95 = {
+			isa = PBXGroup;
+			children = (
+				019CF707268F136F007BFE95 /* macQuran */,
+				019CF706268F136F007BFE95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		019CF706268F136F007BFE95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				019CF705268F136F007BFE95 /* macQuran.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		019CF707268F136F007BFE95 /* macQuran */ = {
+			isa = PBXGroup;
+			children = (
+				019CF72B268F13DD007BFE95 /* Model */,
+				019CF718268F13CD007BFE95 /* View */,
+				019CF708268F136F007BFE95 /* macQuranApp.swift */,
+				019CF70A268F136F007BFE95 /* ContentView.swift */,
+				019CF70C268F1371007BFE95 /* Assets.xcassets */,
+				019CF711268F1371007BFE95 /* Info.plist */,
+				019CF712268F1371007BFE95 /* macQuran.entitlements */,
+				019CF70E268F1371007BFE95 /* Preview Content */,
+			);
+			path = macQuran;
+			sourceTree = "<group>";
+		};
+		019CF70E268F1371007BFE95 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				019CF70F268F1371007BFE95 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		019CF718268F13CD007BFE95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				011DD1552690D22E00CE467C /* Home */,
+				011DD1532690D1D900CE467C /* Mushaf */,
+				011DD1562690D23D00CE467C /* Recitations */,
+				011DD1542690D1E700CE467C /* Settings */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		019CF72B268F13DD007BFE95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				015DFE912695F19900653AA2 /* HizbData.json */,
+				019CF72C268F13DD007BFE95 /* SurahData.json */,
+				019CF72D268F13DD007BFE95 /* HomeViewModel.swift */,
+				019CF72E268F13DD007BFE95 /* ModelData.swift */,
+				019CF72F268F13DD007BFE95 /* ModelTypes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		019CF704268F136F007BFE95 /* macQuran */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019CF715268F1371007BFE95 /* Build configuration list for PBXNativeTarget "macQuran" */;
+			buildPhases = (
+				019CF701268F136F007BFE95 /* Sources */,
+				019CF702268F136F007BFE95 /* Frameworks */,
+				019CF703268F136F007BFE95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macQuran;
+			productName = macQuran;
+			productReference = 019CF705268F136F007BFE95 /* macQuran.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		019CF6FD268F136F007BFE95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					019CF704268F136F007BFE95 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 019CF700268F136F007BFE95 /* Build configuration list for PBXProject "macQuran" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 019CF6FC268F136F007BFE95;
+			productRefGroup = 019CF706268F136F007BFE95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				019CF704268F136F007BFE95 /* macQuran */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		019CF703268F136F007BFE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015DFE922695F19900653AA2 /* HizbData.json in Resources */,
+				019CF710268F1371007BFE95 /* Preview Assets.xcassets in Resources */,
+				011F70ED2691E5AD004E5E9C /* Assets.xcassets in Resources */,
+				019CF730268F13DD007BFE95 /* SurahData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		019CF701268F136F007BFE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019CF724268F13CD007BFE95 /* BlurWindow.swift in Sources */,
+				019CF70B268F136F007BFE95 /* ContentView.swift in Sources */,
+				01BF8E7F2691BFCF0043AF96 /* MushafSinglePage.swift in Sources */,
+				012305E726901AED00DACC21 /* SettingsPageType.swift in Sources */,
+				015DFE8E2694C50600653AA2 /* HizbButton.swift in Sources */,
+				012305E5269015E300DACC21 /* SettingsTheme.swift in Sources */,
+				019CF709268F136F007BFE95 /* macQuranApp.swift in Sources */,
+				019CF732268F13DD007BFE95 /* ModelData.swift in Sources */,
+				019CF735268F1DBC007BFE95 /* Recitation.swift in Sources */,
+				012305EB269033EC00DACC21 /* LeftSidebar.swift in Sources */,
+				019CF729268F13CD007BFE95 /* SurahScrollView.swift in Sources */,
+				019CF722268F13CD007BFE95 /* MushafPages.swift in Sources */,
+				019CF723268F13CD007BFE95 /* Mushaf.swift in Sources */,
+				019CF725268F13CD007BFE95 /* SurahButton.swift in Sources */,
+				019CF731268F13DD007BFE95 /* HomeViewModel.swift in Sources */,
+				019CF728268F13CD007BFE95 /* Settings.swift in Sources */,
+				019CF727268F13CD007BFE95 /* Home.swift in Sources */,
+				011F70EF2692787D004E5E9C /* ArabicFonts.swift in Sources */,
+				015DFE8C2694C4EE00653AA2 /* HizbScrollView.swift in Sources */,
+				019CF733268F13DD007BFE95 /* ModelTypes.swift in Sources */,
+				019CF72A268F13CD007BFE95 /* SurahProgress.swift in Sources */,
+				019CF726268F13CD007BFE95 /* TabButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		019CF713268F1371007BFE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		019CF714268F1371007BFE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		019CF716268F1371007BFE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macQuran/macQuran.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"macQuran/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macQuran/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinqrlab.macQuran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		019CF717268F1371007BFE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macQuran/macQuran.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"macQuran/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macQuran/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinqrlab.macQuran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		019CF700268F136F007BFE95 /* Build configuration list for PBXProject "macQuran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019CF713268F1371007BFE95 /* Debug */,
+				019CF714268F1371007BFE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019CF715268F1371007BFE95 /* Build configuration list for PBXNativeTarget "macQuran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019CF716268F1371007BFE95 /* Debug */,
+				019CF717268F1371007BFE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 019CF6FD268F136F007BFE95 /* Project object */;
+}
